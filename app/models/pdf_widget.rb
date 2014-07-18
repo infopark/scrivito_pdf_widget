@@ -1,0 +1,3 @@
+class PdfWidget < Widget
+
+end

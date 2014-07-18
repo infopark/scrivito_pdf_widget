@@ -1,0 +1,28 @@
+.inline-pdf canvas {
+  width: 100%;
+}
+
+.inline-pdf .pdf-bar {
+  overflow: hidden;
+}
+
+.inline-pdf .button {
+  cursor: pointer;
+  float: left;
+  font-weight: bold;
+  padding: 3px 5px;
+}
+
+.inline-pdf .pdf-first {}
+.inline-pdf .pdf-prev {margin-right: 10px;}
+.inline-pdf .pdf-next {margin-right: 10px;}
+.inline-pdf .pdf-last {}
+.inline-pdf .pdf-bar {}
+.inline-pdf .page-num {margin: 0 0 0 5px;}
+.inline-pdf .page-num:after {content: '/';}
+.inline-pdf .page-count {}
+.inline-pdf .pdf-fullscreen {float: right;}
+.inline-pdf .pdf-download {float: right;}
+.pdf-page-numbers {
+  padding: 3px 5px;
+}

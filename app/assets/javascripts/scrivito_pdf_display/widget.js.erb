@@ -1,0 +1,9 @@
+(function($) {
+  'use strict';
+
+  $('.inline-pdf').pdfViewer({
+    workerSrc: "<%= asset_url('scrivito_pdf_display/pdf.worker') %>",
+    lacy: false
+  });
+
+})(jQuery);

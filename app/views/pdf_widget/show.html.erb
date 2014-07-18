@@ -1,0 +1,9 @@
+<% if widget.pdf.blank? %>
+  <div class="alert alert-info">
+    please select a presentation
+  </div>
+<% else %>
+  <div class="scrivito-pdf">
+    <%= render "pdf_widget/inline_pdf", pdf: widget.pdf %>
+  </div>
+<% end %>
