@@ -1,10 +1,18 @@
 <div class="inline-pdf" data-url="<%= pdf.url_to_pdf %>">
   <canvas></canvas>
   <div class="pdf-bar">
-    <div class="button pdf-first">first page</div>
-    <div class="button pdf-prev">prev page</div>
-    <div class="button pdf-next">next page</div>
-    <div class="button pdf-last">last page</div>
+    <div class="button pdf-first">
+      <%= fa_icon 'angle-double-left', title: 'first Page' %>
+    </div>
+    <div class="button pdf-prev">
+      <%= fa_icon 'angle-left', title: 'prev Page' %>
+    </div>
+    <div class="button pdf-next">
+      <%= fa_icon 'angle-right', title: 'next Page' %>
+    </div>
+    <div class="button pdf-last">
+      <%= fa_icon 'angle-double-right', title: 'last Page' %>
+    </div>
     <div class="button pdf-download">
       <a class="link" href="<%= pdf.url_to_pdf %>" title="Download Pdf">
         download

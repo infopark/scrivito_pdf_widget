@@ -1,0 +1,39 @@
+.inline-pdf canvas {
+  width: 100%;
+}
+
+.inline-pdf .pdf-bar {
+  overflow: hidden;
+}
+
+.inline-pdf .button {
+  cursor: pointer;
+  float: left;
+  font-weight: bold;
+  padding: 0px 5px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.inline-pdf .pdf-first {}
+.inline-pdf .pdf-prev {
+  margin-right: 10px;
+}
+.inline-pdf .pdf-next {}
+.inline-pdf .pdf-last {}
+.inline-pdf .pdf-bar {}
+.inline-pdf .page-num {margin: 0 0 0 5px;}
+.inline-pdf .page-num:after {content: '/';}
+.inline-pdf .page-count {}
+.inline-pdf .pdf-fullscreen {
+  float: right;
+  font-size: 15px;
+}
+.inline-pdf .pdf-download {
+  float: right;
+  font-size: 15px;
+}
+.pdf-page-numbers {
+  padding: 2px 0;
+  text-align: center;
+}
