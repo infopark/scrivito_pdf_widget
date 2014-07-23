@@ -2,6 +2,7 @@ scrivito_pdf_dispay
 ===================
 
 [![Gem Version](https://badge.fury.io/rb/scrivito_pdf_display.svg)](http://badge.fury.io/rb/scrivito_pdf_display)
+[![Code Climate](https://codeclimate.com/github/gertimon/scrivito_pdf_display.png)](https://codeclimate.com/github/gertimon/scrivito_pdf_display)
 
 A Widget for Scrivito to display a PDF on the Page using PDF js.
 
