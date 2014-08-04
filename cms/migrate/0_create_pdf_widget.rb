@@ -1,6 +1,6 @@
 class CreatePdfWidget < ::Scrivito::Migration
   def up
-    create_obj_class(
+    Scrivito::ObjClass.create(
       name: 'Pdf',
       type: 'generic',
       title: 'Pdf',
@@ -10,7 +10,7 @@ class CreatePdfWidget < ::Scrivito::Migration
       ]
     )
 
-    create_obj_class(
+    Scrivito::ObjClass.create(
       name: 'PdfWidget',
       type: 'publication',
       title: 'Pdf Widget',
