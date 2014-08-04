@@ -21,12 +21,6 @@ Add this line to your application Javascript manifest:
 
     // require scrivito_crm_event/application
 
-Add this lines to your Ressource Browser Filter
-
-    'pdfs':
-      title: 'PDF',
-      query: scrivito.obj_where('_obj_class', 'equals', 'Pdf')
-
 And then execute:
 
     $ bundle
