@@ -15,11 +15,15 @@ Add this lines to your application's `Gemfile`:
 
 Add this line to your application Stylesheet manifest:
 
-    *= require scrivito_crm_event/application
+    *= require scrivito_pdf_display/application
 
 Add this line to your application Javascript manifest:
 
-    // require scrivito_crm_event/application
+    //= require scrivito_pdf_display/application
+
+Add this line to your editing Javascript manifest:
+
+    //= require scrivito_pdf_display/editing
 
 And then execute:
 
