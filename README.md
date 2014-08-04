@@ -1,4 +1,4 @@
-scrivito_pdf_dispay
+scrivito_pdf_display
 ===================
 
 [![Gem Version](https://badge.fury.io/rb/scrivito_pdf_display.svg)](http://badge.fury.io/rb/scrivito_pdf_display)
@@ -34,9 +34,12 @@ And then execute:
     $ rake cms:migrate
     $ rake cms:migrate:publish
 
+## Changelog
+See [Changelog](https://github.com/gertimon/scrivito_pdf_display/blob/master/CHANGELOG.md) for more
+
 ## Contributing
 
-1. Fork it ( https://github.com/infopark/scrivito_crm_event/merge_tags/fork )
+1. Fork it ( https://github.com/infopark/scrivito_pdf_display/merge_tags/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
