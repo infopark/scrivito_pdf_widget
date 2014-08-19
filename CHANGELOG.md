@@ -1,5 +1,9 @@
 # Changelog: Scrivito PDF display
 
+## 0.0.5
+
+* Fix: Asset pipeline do not found pdf.worker.js
+
 ## 0.0.4
 
 * Use new migration api
