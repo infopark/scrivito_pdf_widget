@@ -1,12 +1,12 @@
-(function($) {
+(function($, App) {
   'use strict';
 
   $(function() {
-    ResourcebrowserUploader.mimeTypeMapping['pdf/*'] = 'Pdf'
+    App.ResourcebrowserUploader.mimeTypeMapping['pdf/*'] = 'Pdf';
 
-    Resourcebrowser.filters['pdfs'] = {
+    App.Resourcebrowser.filters.pdfs = {
       'title': 'PDF',
-      'query': scrivito.obj_where('_obj_class', 'equals', 'Pdf')
-    }
+      'query': App.scrivito.obj_where('_obj_class', 'equals', 'Pdf')
+    };
   });
-})(jQuery);
+})(jQuery, this);

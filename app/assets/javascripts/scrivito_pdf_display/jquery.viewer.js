@@ -7,30 +7,26 @@
 (function($) {
   'use strict';
 
-  $.fn.pdfViewer = function(options) {
+  $.fn.pdfViewer = function(opt) {
     var self = this;
     var options = $.extend({
-      // the first page that is shiwn
-      startPage: 1,
-      // scale for the pdf
-      scale: 2.0,
-      // src for the worker. Should be set in some frameworks (like rails with assets [?body=1])
-      // because autoload from pdf.worker.js will not work.
-      workerSrc: '',
+      startPage: 1,   // pagev visible at start
+      scale: 2.0,     // scale for the pdf
+      workerSrc: '',  // src for the worker. Should be set in some frameworks (like rails with assets [?body=1]) because autoload from pdf.worker.js will not work.
       lacy: true,
       fullscreen: 'ico-fullscreen',
       exit_fullscreen: 'ico-resize-small',
       locals: {
         page: 'Page'
       }
-    }, options)
+    }, opt)
 
     var loaded = !options.lacy;
 
     if(options.lacy) {
       $(self).find('.pdf-next, .pdf-last, .pdf-prev, .pdf-first, .pdf-fullscreen, .pdf_prev_image').on('click', function() {
         if(!loaded) {
-          initializePdf(options, self)
+          initializePdf(options, self);
           loaded = true;
         }
       });
