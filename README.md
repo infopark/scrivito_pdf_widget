@@ -25,6 +25,10 @@ Add this line to your editing Javascript manifest:
 
     //= require scrivito_pdf_display/editing
 
+You also have to add this line to your application.rb
+
+    config.assets.precompile += %w(scrivito_pdf_display/pdf.worker.js)
+
 And then execute:
 
     $ bundle
