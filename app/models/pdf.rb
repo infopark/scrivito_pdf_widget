@@ -17,7 +17,7 @@ class Pdf < Obj
   end
 
   def url_to_pdf
-    self.try(:body_data_url) || ''
+    self.try(:binary_url) || ''
   end
 
   def show_in_navigation?
