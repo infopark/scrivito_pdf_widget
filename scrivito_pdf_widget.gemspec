@@ -1,13 +1,13 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "scrivito_pdf_display/version"
+require "scrivito_pdf_widget/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = "scrivito_pdf_display"
-  s.version     = ScrivitoPdfDisplay::VERSION
+  s.name        = "scrivito_pdf_widget"
+  s.version     = ScrivitoPdfWidget::VERSION
   s.authors     = ["Scrivito"]
   s.email       = ["support@scrivito.com"]
   s.homepage    = "https://www.scrivito.com"
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.license     = "LGPL-3"
 
   s.files = Dir[
-    "{app,lib,cms}/**/*",
+    "{app,lib,scrivito}/**/*",
     "LICENSE",
     "Rakefile",
   ]

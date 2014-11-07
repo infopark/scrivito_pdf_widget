@@ -10,6 +10,6 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require scrivito_pdf_display/pdf
-//= require scrivito_pdf_display/jquery.viewer
-//= require scrivito_pdf_display/widget
+//= require pdf_widget/pdf
+//= require pdf_widget/jquery.viewer
+//= require pdf_widget/widget
