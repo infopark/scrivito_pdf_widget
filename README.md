@@ -32,9 +32,9 @@ You also have to add this line to your application.rb
 And then execute:
 
     $ bundle
-    $ rake cms:migrate:install
-    $ rake cms:migrate
-    $ rake cms:migrate:publish
+    $ rake scrivito:migrate:install
+    $ rake scrivito:migrate
+    $ rake scrivito:migrate:publish
 
 ## Changelog
 See [Changelog](https://github.com/gertimon/scrivito_pdf_widget/blob/master/CHANGELOG.md) for more
