@@ -2,9 +2,9 @@
   'use strict';
 
   $(function() {
-    App.ResourcebrowserUploader.mimeTypeMapping['pdf/*'] = 'Pdf';
+    scrivito.content_browser.filter_defaults.upload['pdf/*'] = 'Pdf';
 
-    App.Resourcebrowser.filters.pdfs = {
+    scrivito.content_browser.filters.pdfs = {
       'title': 'PDF',
       'query': App.scrivito.obj_where('_obj_class', 'equals', 'Pdf')
     };

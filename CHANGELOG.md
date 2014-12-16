@@ -1,5 +1,9 @@
 # Changelog: Scrivito PDF display
 
+## 1.0.2
+
+* Fix: update content browser javascript
+
 ## 1.0.1
 
 * Rename to new naming convention
