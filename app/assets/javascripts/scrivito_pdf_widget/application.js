@@ -10,6 +10,6 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require pdf_widget/pdf
-//= require pdf_widget/jquery.viewer
-//= require pdf_widget/widget
+//= require ./pdf
+//= require ./jquery.viewer
+//= require ./widget

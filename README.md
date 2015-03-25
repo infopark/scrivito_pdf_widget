@@ -15,19 +15,11 @@ Add this lines to your application's `Gemfile`:
 
 Add this line to your application Stylesheet manifest:
 
-    *= require scrivito_pdf_widget/application
+    *= require scrivito_pdf_widget
 
 Add this line to your application Javascript manifest:
 
-    //= require scrivito_pdf_widget/application
-
-Add this line to your editing Javascript manifest:
-
-    //= require scrivito_pdf_widget/editing
-
-You also have to add this line to your application.rb
-
-    config.assets.precompile += %w(scrivito_pdf_widget/pdf.worker.js)
+    //= require scrivito_pdf_widget
 
 And then execute:
 
