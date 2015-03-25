@@ -2,7 +2,9 @@
   'use strict';
 
   $(function() {
-    scrivito.content_browser.filter_defaults.upload['text/calendar'] = 'Ics'
+    scrivito.register_default_obj_class_for_content_type({
+      'application/pdf': 'Pdf'
+    })
 
     scrivito.content_browser.filters.pdfs = {
       'title': 'PDF',
