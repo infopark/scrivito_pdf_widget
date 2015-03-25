@@ -11,7 +11,6 @@ A Widget for Scrivito to display a PDF on the Page using PDF js.
 Add this lines to your application's `Gemfile`:
 
     gem 'scrivito_pdf_widget'
-    gem 'font-awesome-rails'
 
 Add this line to your application Stylesheet manifest:
 
