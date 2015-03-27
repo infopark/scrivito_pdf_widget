@@ -1,4 +1,4 @@
-gem 'font-awesome-rails'
+require 'font-awesome-rails'
 
 module ScrivitoPdfWidget
   class Engine < ::Rails::Engine
