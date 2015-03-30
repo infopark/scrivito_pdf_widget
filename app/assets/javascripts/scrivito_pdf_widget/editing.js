@@ -2,9 +2,11 @@
   'use strict';
 
   $(function() {
-    scrivito.register_default_obj_class_for_content_type({
-      'application/pdf': 'Pdf'
-    })
+    if(scrivito.in_editable_view()) {
+      scrivito.register_default_obj_class_for_content_type({
+        'application/pdf': 'Pdf'
+      });
+    }
 
     scrivito.content_browser.filters.pdfs = {
       'title': 'PDF',
