@@ -1,4 +1,8 @@
-class Pdf < Obj
+class Pdf < Scrivito::BasicObj
+  attribute :headline, :string
+  attribute :description, :html
+  attribute :blob, :binary
+
   def self.create(attributes)
     attributes = attributes.with_indifferent_access
 
