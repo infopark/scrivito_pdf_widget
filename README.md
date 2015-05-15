@@ -20,13 +20,6 @@ Add this line to your application Javascript manifest:
 
     //= require scrivito_pdf_widget
 
-And then execute:
-
-    $ bundle
-    $ rake scrivito:migrate:install
-    $ rake scrivito:migrate
-    $ rake scrivito:migrate:publish
-
 ## Changelog
 See [Changelog](https://github.com/gertimon/scrivito_pdf_widget/blob/master/CHANGELOG.md) for more
 
