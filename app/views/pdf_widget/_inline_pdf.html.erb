@@ -1,4 +1,11 @@
-<div class="inline-pdf" data-url="<%= pdf.url_to_pdf %>">
+<div class="inline-pdf" data-url="<%= pdf.url_to_pdf %>" itemscope="itemsope" itemtype="http://schema.org/MediaObject">
+  <meta itemprop="contentUrl" value="<%= pdf.url_to_pdf %>"/>
+  <meta itemprop="contentSize" value="<%= number_to_human_size(pdf.binary_length) %>"/>
+  <meta itemprop="encodingFormat" value="pdf"/>
+
+  <meta itemprop="name" value="<%= pdf.title %>"/>
+  <meta itemprop="description" value="<%= pdf.description %>"/>
+
   <canvas></canvas>
   <div class="pdf-bar">
     <div class="button pdf-first">

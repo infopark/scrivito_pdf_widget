@@ -1,5 +1,16 @@
 # Changelog: Scrivito PDF display
 
+## 1.0.15
+
+* Easy installation without setting foptions for content browser
+* support SDK > 0.60.0
+* Add semantic snippets based on https://schema.org/MediaObject
+* Minor Fixes
+
+## 1.0.12
+
+* No support for Sdk < 0.60.0
+
 ## 1.0.2
 
 * Fix: update content browser javascript

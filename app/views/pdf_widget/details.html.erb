@@ -1,2 +1,11 @@
-<h4>Select PDF</h4>
-<%= scrivito_tag(:div, widget, :pdf, data: {filter: PdfWidget.filter}) %>
+<%= scrivito_details_for 'PDF' do %>
+  <%= scrivito_tag(:div, widget, :pdf, data: {filter: PdfWidget.filter}) %>
+<% end %>
+
+<%= scrivito_details_for 'Title' do %>
+  <%= scrivito_tag(:div, widget, :title %>
+<% end %>
+
+<%= scrivito_details_for 'Description' do %>
+  <%= scrivito_tag(:div, widget, :description %>
+<% end %>
