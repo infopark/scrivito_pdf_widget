@@ -2,10 +2,12 @@
   <%= scrivito_tag(:div, widget, :pdf, data: {filter: PdfWidget.filter}) %>
 <% end %>
 
-<%= scrivito_details_for 'Title' do %>
-  <%= scrivito_tag(:div, widget, :title %>
-<% end %>
+<% if widget.pdf.present? %>
+  <%= scrivito_details_for 'Title' do %>
+    <%= scrivito_tag(:div, widget.pdf, :title) %>
+  <% end %>
 
-<%= scrivito_details_for 'Description' do %>
-  <%= scrivito_tag(:div, widget, :description %>
+  <%= scrivito_details_for 'Description' do %>
+    <%= scrivito_tag(:div, widget.pdf, :description) %>
+  <% end %>
 <% end %>
