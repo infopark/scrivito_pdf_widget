@@ -1,8 +1,8 @@
 (function($) {
   'use strict';
 
-  scrivito.on('content', function() {
-    $('.inline-pdf').pdfViewer({
+  scrivito.on('content', function(content) {
+    $(content).find('.inline-pdf').pdfViewer({
       workerSrc: "<%= asset_url('scrivito_pdf_widget/pdf.worker.js') %>",
       lacy: false
     });
