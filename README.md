@@ -2,13 +2,12 @@ scrivito_pdf_widget
 ===================
 
 [![Gem Version](https://badge.fury.io/rb/scrivito_pdf_widget.svg)](http://badge.fury.io/rb/scrivito_pdf_widget)
-[![Code Climate](https://codeclimate.com/github/Scrivito/scrivito_pdf_widget.png)](https://codeclimate.com/github/Scrivito/scrivito_pdf_widget)
 
 A Widget for Scrivito to display a PDF on the Page using PDF js.
 
 ## Installation
 
-Add this lines to your application's `Gemfile`:
+Add this line to your application's `Gemfile`:
 
     gem 'scrivito_pdf_widget'
 
