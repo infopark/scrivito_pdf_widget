@@ -3,7 +3,7 @@ class Pdf < Obj
   attribute :blob, :binary
 
   def url_to_pdf
-    self.try(:binary_url).split('?').first
+    self.try(:binary_url)
   end
 
   def show_in_navigation?
