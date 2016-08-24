@@ -1,3 +1,3 @@
-<%= scrivito_thumbnail 'PDF', image_tag("widget_preview_pdf.png") do %>
-  Display a PDF on your page.
+<%= scrivito_thumbnail t('scrivito_pdf_widget.thumbnail.title', default: 'PDF'), image_tag("widget_preview_pdf.png") do %>
+  <%= t('scrivito_pdf_widget.thumbnail.description', default: 'Display a PDF on your page') %>
 <% end %>

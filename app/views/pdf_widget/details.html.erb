@@ -1,9 +1,9 @@
-<%= scrivito_details_for 'PDF' do %>
+<%= scrivito_details_for t('scrivito_pdf_widget.details.pdf', default: 'PDF') do %>
   <%= scrivito_tag(:div, widget, :pdf) %>
 <% end %>
 
 <% if widget.pdf.present? %>
-  <%= scrivito_details_for 'Description' do %>
+  <%= scrivito_details_for t('scrivito_pdf_widget.details.description', default: 'Description') do %>
     <%= scrivito_tag(:div, widget.pdf, :description) %>
   <% end %>
 <% end %>

@@ -15,3 +15,18 @@ Add this line to your application stylesheet manifest:
 Add this line to your application JavaScript manifest:
 
     //= require scrivito_pdf_widget
+
+## Localization
+
+The following code represents the default localization for English. Copy it to your `en.yml` and change it if necessary:
+
+```yaml
+en:
+  scrivito_pdf_widget:
+    thumbnail:
+      title: Pdf
+      description: Display a PDF on your page
+    details:
+      pdf: PDF
+      description: Description
+``
