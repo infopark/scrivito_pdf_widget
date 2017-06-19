@@ -12,6 +12,11 @@ Add this line to your application stylesheet manifest:
 
     *= require scrivito_pdf_widget
 
+If you use `sass-rails` for your application stylesheet manifest (e.g. `application.scss` or `application.css.scss`) add the following:
+
+    @import "scrivito_pdf_widget/application";
+    @import "scrivito_pdf_widget/editing";
+
 Add this line to your application JavaScript manifest:
 
     //= require scrivito_pdf_widget
