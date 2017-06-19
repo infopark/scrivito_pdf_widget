@@ -16,6 +16,8 @@ Add this line to your application JavaScript manifest:
 
     //= require scrivito_pdf_widget
 
+Note: this must be inserted below `//= require scrivito` in your manifest.
+
 ## Localization
 
 The following code represents the default localization for English. Copy it to your `en.yml` and change it if necessary:
