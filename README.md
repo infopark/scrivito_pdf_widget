@@ -34,4 +34,5 @@ en:
     details:
       pdf: PDF
       description: Description
+      replace_pdf: Drop new PDF here to replace
 ``

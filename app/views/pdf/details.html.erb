@@ -1,6 +1,8 @@
-<div class="aler alert-info">
-  This attribute are used as meta information for semantic web. It is based on <a href="http://schema.org/MediaObject">http://schema.org/MediaObject</a>.
-</div>
+<%= scrivito_details_for do %>
+  <%= scrivito_tag :div, @obj, :blob, class: 'image-replace-dropzone' do %>
+    <%= t('scrivito_pdf_widget.details.replace_pdf', default: 'Drop new PDF here to replace') %>
+  <% end %>
+<% end %>
 
 <%= scrivito_details_for t('scrivito_pdf_widget.details.description', default: 'Description') do %>
   <%= scrivito_tag(:div, @obj, :description) %>
